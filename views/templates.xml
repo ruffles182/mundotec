@@ -1,0 +1,62 @@
+<odoo>
+    <!-- <data> -->
+    <!-- <templates id="pos_custom_extended" inherit_id="mail.MessageActionList" xml:space="preserve">
+
+      <t t-name="PosTicket">
+
+            ....
+
+            <br />
+
+            jajajajajajajajaj
+
+            <br />
+
+            ....
+
+      </t>
+
+      </template> -->
+      <!-- <template id="template" xml:space="preserve">
+        <t t-name="template_erencia_prueba" t-inherit="mail.MessageActionList" t-inherit-mode="primary">
+            <xpath expr="//div" position="replace">
+                <div>new element</div>
+            </xpath>
+        </t>
+      </template> -->
+      <!-- <template inherit_id="mail.MessageActionList" id="MessageActionList_extend">
+            <xpath expr="//div" position="replace">
+                  <div> jajajajjaja </div>
+            </xpath>
+      </template> -->
+      <!-- <templates id="template" xml:space="preserve">
+
+        <t t-name="mail.MessageActionList_extend" t-inherit="mail.MessageActionList">
+          <xpath expr="//div" position="replace">
+              <div> Hello</div>
+          </xpath>
+        </t>
+
+      </templates> -->
+<!--
+        <template id="listing">
+          <ul>
+            <li t-foreach="objects" t-as="object">
+              <a t-attf-href="#{ root }/objects/#{ object.id }">
+                <t t-esc="object.display_name"/>
+              </a>
+            </li>
+          </ul>
+        </template>
+        <template id="object">
+          <h1><t t-esc="object.display_name"/></h1>
+          <dl>
+            <t t-foreach="object._fields" t-as="field">
+              <dt><t t-esc="field"/></dt>
+              <dd><t t-esc="object[field]"/></dd>
+            </t>
+          </dl>
+        </template>
+-->
+    <!-- </data> -->
+</odoo>

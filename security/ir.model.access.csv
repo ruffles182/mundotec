@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_mundotec_tdf_tags,mundotec.tdf.tags,model_mundotec_tdf_tags,base.group_user,1,1,1,1
+access_mundotec_marca,mundotec.marca,model_mundotec_marca,base.group_user,1,1,1,1
+access_mundotec_modelo,mundotec.modelo,model_mundotec_modelo,base.group_user,1,1,1,1
+access_mundotec_subestatus,mundotec.subestatus,model_mundotec_subestatus,base.group_user,1,1,1,1
